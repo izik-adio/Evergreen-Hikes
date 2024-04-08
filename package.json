@@ -4,7 +4,7 @@
   "description": "This is the first project from the odin project",
   "main": "index.js",
   "scripts": {
-    "tailwind": "npx tailwindcss -i ./src/inputs.css -o ./builds/css/style.css --watch"
+    "tailwind": "npx tailwindcss -i ./src/inputs.css -o ./build/css/style.css --watch"
   },
   "keywords": [],
   "author": "",
