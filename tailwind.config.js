@@ -7,7 +7,7 @@ module.exports = {
         darkB: "#1f2937",
         textC: "#FEFAF8",
         linkC: "#E5E7EB",
-        btnC: "#3882F6"
+        btnC: "#0B2400",
       },
     },
   },
