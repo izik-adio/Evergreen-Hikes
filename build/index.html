@@ -1,81 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Evergreen Hikes - Explore Nature's Beauty</title>
-        <link rel="stylesheet" href="./css/style.css">
-    </head>
-    <body>
-        Evergreen Hikes - Explore Nature's Beauty
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Evergreen Hikes - Explore Nature's Beauty</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="sm:scroll-smooth">
+    <header class="bg-darkB sticky top-0 inset-y-0 z-10">
+      <div
+        class="flex py-3 justify-between items-center container max-w-screen-lg mx-auto text-textC px-4"
+      >
+        <h1>
+          <a href="#hero" class="text-lg sm:text-xl md:text-2xl"
+            >Evergreen Hikes</a
+          >
+        </h1>
+        <nav
+          id="desktop"
+          class="flex gap-4 text-linkC flex-nowrap text-base sm:text-lg"
+        >
+          <a class="hover:text-textC" href="#hero">Home</a>
+          <a class="hover:text-textC" href="#features">Features</a>
+          <a class="hover:text-textC" href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="hero" class="bg-darkB py-10 scroll-mt-10">
+        <div
+          class="flex flex-col-reverse md:flex-row px-4 max-w-screen-lg mx-auto items-center gap-4 justify-between overflow-hidden"
+        >
+          <div class="w-4/5 min-w-80">
+            <h2
+              class="text-center md:text-left text-3xl md:text-2xl lg:text-4xl font-extrabold text-textC mb-4"
+            >
+              Unforgettable Hiking Adventures Await
+            </h2>
+            <h3 class="text-linkC text-lg md:w-4/5 text-center md:text-left">
+              Join us for guided hikes through breathtaking landscapes and
+              experience the wonder of nature.
+            </h3>
+          </div>
 
-        Header:
+          <img
+            width="600"
+            class="max-w-full h-auto rounded-xl"
+            src="./images/asian-woman-travel-relak-in-the-holiday_hero.webp"
+            alt="asian woman travel relak in the holiday"
+          />
+        </div>
+      </section>
 
-        Business Name: Evergreen Hikes
-        Logo: Design a logo that incorporates elements of nature, like
-        mountains, trees, or hiking boots. Use online logo creation tools like
-        Canva or Fiverr as mentioned before.
+      <section id="features" class="py-10 scroll-mt-8 bg-textC">
+        <div
+          class="flex-col px-4 max-w-screen-lg mx-auto items-center gap-4 justify-between"
+        >
+          <h2
+            class="text-center text-3xl mb-4 md:text-4xl font-extrabold text-darkB"
+          >
+            Features
+          </h2>
 
-        Hero Section:
+          <div class="flex flex-wrap gap-4">
+            <div
+              class="flex flex-col gap-2 p-3 rounded-lg w-80 bg-darkB text-center flex-auto"
+            >
+              <h2
+                class="text-xl font-semibold text-textC md:text-2xl lg:text-xl"
+              >
+                Discover Diverse Hiking Trails
+              </h2>
+              <img
+                class="max-w-full h-auto rounded-xl"
+                src="./images/a-group-of-people-standing-on-a-trail-in-the-woods.webp"
+                alt="a group of people standing on a trail in the woods"
+              />
+              <p class="text-sm text-linkC font-medium">
+                Evergreen Hikes offers guided tours for all levels. Explore
+                scenic trails, find waterfalls, trek forests. Perfect for
+                adventurers or nature enthusiasts.
+              </p>
+            </div>
 
-        Headline: "Unforgettable Hiking Adventures Await"
-        Subheading:
-        "Join us for guided hikes through breathtaking landscapes and experience the wonder of nature."
-        Image: Search for "[Scenic Mountain Hike]" on Pexels or Unsplash.
+            <div
+              class="flex flex-col gap-2 p-3 rounded-lg w-80 bg-darkB text-center flex-auto"
+            >
+              <h2
+                class="text-xl font-semibold text-textC md:text-2xl lg:text-xl"
+              >
+                Unwind and Reconnect in Nature
+              </h2>
+              <img
+                class="max-w-full h-auto rounded-xl"
+                src="./images/relaxing.jpg"
+                alt="A lady Relaxing on a Scenic  Overlook"
+              />
+              <p class="text-sm text-linkC font-medium">
+                Immerse in nature's tranquility, escape daily hustle. Hiking
+                relieves stress, boosts health, brings peace. Join us,
+                rediscover amidst outdoor beauty.
+              </p>
+            </div>
 
-        Content Sections:
+            <div
+              class="flex flex-col gap-2 p-3 rounded-lg w-80 bg-darkB text-center flex-auto"
+            >
+              <h2
+                class="text-xl font-semibold text-textC md:text-2xl lg:text-xl"
+              >
+                More Than Just a Hike - A Journey of Connection
+              </h2>
+              <img
+                class="max-w-full h-auto rounded-t-xl"
+                src="./images/hiking-guide.jpg"
+                alt="Hiking Guide Pointing at a Scenic View"
+              />
 
-        Section 1: Discover Diverse Hiking Trails
-        Description:
-        "Evergreen Hikes offers a variety of guided hiking tours for all experience levels. Explore scenic mountain trails, discover hidden waterfalls, and trek through lush forests. We have the perfect hike for you, whether you're a seasoned adventurer or a casual nature enthusiast."
-        Image: Search for "[Group Hiking on a Trail]" on Pexels or Unsplash.
+              <p class="text-sm text-linkC font-medium">
+                More than park walks. Connect with nature, appreciate
+                environment. Guides share flora, fauna knowledge, making hike
+                educational, enjoyable.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        Section 2: More Than Just a Hike - A Journey of Connection
-        Description:
-        "Our guided hikes are more than just walks in the park. We believe in connecting you with nature and creating a lasting appreciation for the environment.  Our experienced guides will share their knowledge of local flora and fauna, making your hike both educational and enjoyable."
-        Image: Search for "[Hiking Guide Pointing at a Scenic View]" on Pexels
-        or Unsplash.
+      <blockquote>
+        “Everyone wants to live on top of the mountain, but all the happiness
+        and growth occurs while you are climbing it.” - Andy Rooney
+      </blockquote>
 
-        Section 3: Unwind and Reconnect in Nature
-        Description:
-        "Escape the hustle and bustle of everyday life and immerse yourself in the tranquility of nature. Hiking is a fantastic way to relieve stress, improve your physical health, and gain a sense of peace.  Join us on a hike and rediscover yourself amidst the beauty of the outdoors."
-        Image: Search for "[Relaxing on a Scenic Overlook]" on Pexels or
-        Unsplash.
+      <section></section>
+      "Book Your Adventure Today" (Link this button to a booking form)
+    </main>
 
-        Quote:
-
-        "Hiking is not just about putting one foot in front of the other. It's about journey of self-discovery and appreciating nature's beauty."
-        - John Muir
-
-        Call to Action Button:
-
-        "Explore Our Hiking Tours" (Link this button to a page with details
-        about your hiking packages)
-        "Book Your Adventure Today" (Link this button to a booking form)
-
-        Footer:
-
-        Contact Information:
-        Phone number
-        Email address
-        Location (if you offer local hikes) or general contact information
-        Social Media Links: Include links to your social media profiles
-        showcasing hiking adventures.
-        Copyright Information: Add a simple copyright statement with the
-        current year.
-
-        Additional Ideas:
-
-        Create a blog section with hiking tips, gear recommendations, and
-        highlights from past adventures.
-        Feature testimonials from satisfied customers who have experienced
-        your hiking tours.
-        Showcase a gallery of stunning photos captured during your hikes.
-
-        This website mockup provides a foundation for showcasing Evergreen Hikes
-        and the incredible hiking experiences you offer. Remember to customize
-        it with your own content and visuals to create a website that inspires
-        people to explore the wonders of nature!
-
-    </body>
+    <footer id="contact">
+      Contact Information: Phone number Email address Location (if you offer
+      local hikes) or general contact information Social Media Links: Include
+      links to your social media profiles showcasing hiking adventures.
+      Copyright Information: Add a simple copyright statement with the current
+      year.
+    </footer>
+  </body>
 </html>

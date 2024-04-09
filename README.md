@@ -8,7 +8,7 @@ Evergreen Hikes offers a variety of guided hiking tours for adventurers of all e
 
 ## Viewing the Live Website
 
-To view the live Evergreen Hikes website, simply click [here](https://your-website-url.com).
+To view the live Evergreen Hikes website, simply click [here](https://evergreen-hikes.vercel.app).
 
 If you like our website, please consider starring this repository!
 
