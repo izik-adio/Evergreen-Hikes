@@ -880,6 +880,14 @@ video {
     margin-left: 0px;
   }
 
+  .sm\:flex {
+    display: flex;
+  }
+
+  .sm\:flex-nowrap {
+    flex-wrap: nowrap;
+  }
+
   .sm\:scroll-smooth {
     scroll-behavior: smooth;
   }
@@ -909,6 +917,10 @@ video {
     flex-direction: row;
   }
 
+  .md\:rounded-lg {
+    border-radius: 0.5rem;
+  }
+
   .md\:text-left {
     text-align: left;
   }
@@ -925,6 +937,10 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:rounded-lg {
+    border-radius: 0.5rem;
+  }
+
   .lg\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
